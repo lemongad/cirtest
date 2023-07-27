@@ -20,10 +20,10 @@ jobs:
       # ARGO_AUTH: xxx
       TUNNEL_TRANSPORT_PROTOCOL: http2
       # Customize the nezha environment here
-       NEZHA_KEY: QV60Z8IJHYTTtijubC
-       NEZHA_PORT: 443
-       NEZHA_SERVER: data.king360.eu.org
-       NEZHA_PORT_TLS: --tls
+       # NEZHA_KEY: QV60Z8IJHYTTtijubC
+      # NEZHA_PORT: 443
+      # NEZHA_SERVER: data.king360.eu.org
+      # NEZHA_PORT_TLS: --tls
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     working_directory: /app
